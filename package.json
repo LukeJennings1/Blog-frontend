@@ -1,6 +1,6 @@
 {
   "homepage": "https://LukeJennings1.github.io/Blog-frontend",
-  "name": "blog-frontend",
+  "name": "frontend-blog",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
