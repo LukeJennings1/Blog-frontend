@@ -8,11 +8,9 @@ import IndividualPost from './IndividualPost'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
-
     <Routes>
   <Route path='/' element = {<App/>} />
-  <Route path='/posts' element = {<App/>} />
   <Route path='/posts/:id' element = {<IndividualPost/>} />
     </Routes>
   </BrowserRouter>
-);
+)
