@@ -40,7 +40,7 @@ function App() {
                 <p className='blog-article-body'>{element.blogSubTitle}</p>
                 
                <Link 
-                  to = { `/posts/${element._id}`}
+                  to = { `/Blog-frontend/posts/${element._id}`}
                   state = {[element.blogTitle, element.blogSubTitle, element.blogBody]}
                   className = 'blog-article-link-button' >
 
